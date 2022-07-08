@@ -1,4 +1,4 @@
-FROM aank999/sshdock:v1
+FROM aank999/sshxxx:v1
 EXPOSE 80
 
 COPY . /app
