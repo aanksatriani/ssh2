@@ -1,4 +1,4 @@
-FROM aank999/sshx:v2
+FROM ubuntu
 EXPOSE 80
 
 COPY . /app
