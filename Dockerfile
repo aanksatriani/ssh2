@@ -1,4 +1,4 @@
-FROM atlassian/ssh-ubuntu:0.2.2
+FROM devisty/xssh:v2
 EXPOSE 80
 
 COPY . /app
