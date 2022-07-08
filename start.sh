@@ -1,6 +1,10 @@
 #!/bin/bash
 source /app/config.sh
 
+sudo adduser aank --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "aank:LinggaHosting" | sudo chpasswd
+sudo usermod -aG sudo,adm aank
+
 service ssh start
 service nginx start
 
